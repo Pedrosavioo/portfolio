@@ -1,0 +1,19 @@
+/* fonte */
+
+:root {
+   --color1: #1a1a1a;
+   --color-text-logo: rgb(30, 35, 172); 
+   --color-text-span-logo: rgb(88, 108, 74); 
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100vw;
+   min-height: 100vh;
+   overflow-x: hidden;
+}
