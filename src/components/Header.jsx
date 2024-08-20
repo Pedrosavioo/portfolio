@@ -8,6 +8,11 @@ const HeaderStyle = styled.header`
    padding: 0 2rem;
    height: 8vh;
 
+   & #logo {
+      margin-left: 4rem;
+      font-size: 1.3rem;
+   }
+
    & a {
       color: var(--color-text-logo);
       color: white;
