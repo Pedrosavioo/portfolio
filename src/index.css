@@ -4,8 +4,8 @@
 
 :root {
    --color1: #1a1a1a;
-   --color-text-logo: rgb(30, 35, 172); 
-   --color-text-span-logo: rgb(88, 108, 74); 
+   --color-text-logo: #754EF9; 
+   --color-text-span-logo: rgb(87, 161, 137); 
 
    --font-title: "Share Tech Mono", monospace;
    --font-text: "Source Code Pro", monospace;
