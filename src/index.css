@@ -1,14 +1,15 @@
-/* fonte */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Share+Tech+Mono&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+/*---- fonts ----*/
+@import url("https://fonts.googleapis.com/css2?family=Orbit&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
-   --color1: #1a1a1a;
-   --color-text-logo: #754EF9; 
-   --color-text-span-logo: rgb(87, 161, 137); 
+   --text: #f3fcf3;
+   --background: #040c03;
+   --primary: #3b3486;
+   --secondary: #864af9;
+   --accent: #f8e559;
 
-   --font-title: "Share Tech Mono", monospace;
-   --font-text: "Source Code Pro", monospace;
+   --font-title: "Rubik", serif;
+   --font-text: "Orbit", serif;
 }
 
 * {
@@ -16,10 +17,14 @@
    margin: 0;
    box-sizing: border-box;
    font-family: var(--font-text);
+   color: var(--text);
+   background-color: var(--background);
 }
 
 body {
    width: 100vw;
-   min-height: 100vh;
-   overflow-x: hidden;
+   height: 100vh;
+   overflow: hidden;
+   background-color: var(--background);
+   padding: 0 2rem;
 }

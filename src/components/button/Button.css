@@ -1,0 +1,22 @@
+.btn {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   color: var(--secondary);
+   border: none;
+   font-family: var(--font-title);
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+   letter-spacing: 0.8px;
+
+   & img {
+      transition: .5s;
+   }
+
+   &:hover {
+      & img {
+         transform: rotate(90deg);
+      }
+   }
+}
