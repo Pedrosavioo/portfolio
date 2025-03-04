@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import { useAnimations } from "../../../redux/animations.-scroll";
 
 import imageHome from "./../../../imgs/image-home.svg";
-import imgDesign from "./../../../imgs/img7.png";
+import imgDesign from "./../../../imgs/arc.png";
 import imgCodeBlur from "./../../../imgs/code-left.png";
 
 const HomeSession = () => {
