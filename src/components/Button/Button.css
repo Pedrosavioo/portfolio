@@ -1,4 +1,6 @@
 .btn {
+   background-color: var(--background);
+   width: fit-content;
    display: flex;
    align-items: center;
    gap: 1rem;
