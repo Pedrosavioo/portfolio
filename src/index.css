@@ -6,7 +6,10 @@
    --background: #040c03;
    --primary: #3b3486;
    --secondary: #864af9;
-   --accent: #f8e559;
+   --accent: #E99725;
+   --text-color:  rgb(219, 219, 224);
+   --text-color-gray: #A59C9C;
+   --gradient: linear-gradient(90deg, #9729B0 0%, #FD81A5 15%, #FAFA87 65%);
 
    --font-title: "Rubik", serif;
    --font-text: "Orbit", serif;
@@ -18,7 +21,7 @@
    box-sizing: border-box;
    font-family: var(--font-text);
    color: var(--text);
-   background-color: var(--background);
+   background-color: none;
 }
 
 body {
@@ -26,5 +29,12 @@ body {
    height: 100vh;
    overflow: hidden;
    background-color: var(--background);
-   padding: 0 2rem;
+}
+
+a {
+   color: var(--accent);
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 600;
+   letter-spacing: .8px;
 }
