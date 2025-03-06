@@ -1,0 +1,33 @@
+#navigate-sessions {
+   position: absolute;
+   top: 35%;
+   right: 1rem;
+   z-index: 10;
+
+   & ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.2rem;
+
+      & li {
+         border-right: 4px solid #555252;
+         padding: .8rem;
+         padding-right: 1rem;
+         font-size: 1rem;
+         cursor: pointer;
+         transition: .5s ease-in-out;
+
+         &.active {
+            font-weight: bold;
+            border-right: 4px solid var(--text);
+         }
+
+         &:hover {
+            font-weight: bold;
+            border-right: 4px solid var(--text);
+         }
+      }
+   }
+}
